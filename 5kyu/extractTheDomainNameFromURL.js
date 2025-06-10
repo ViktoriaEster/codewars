@@ -13,4 +13,4 @@ const domainName = (url) => {
     return domain.split('.')[0];
 };
 
-console.log(domainName("http://github.com/carbonfive/raygun"));
+console.log("domain name = " + domainName("http://github.com/carbonfive/raygun"));
